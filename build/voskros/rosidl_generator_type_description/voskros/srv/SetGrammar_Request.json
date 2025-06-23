@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "voskros/srv/SetGrammar_Request",
+      "fields": [
+        {
+          "name": "list",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "voskros/srv/SetGrammar_Request",
+      "hash_string": "RIHS01_82f4b4f9275cd320c80908ed0c707176d761467543fac56b94eb5ced84c400f8"
+    }
+  ]
+}

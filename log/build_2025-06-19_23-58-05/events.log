@@ -1,0 +1,759 @@
+[0.000000] (-) TimerEvent: {}
+[0.000437] (voice_turtlesim_controller) JobQueued: {'identifier': 'voice_turtlesim_controller', 'dependencies': OrderedDict()}
+[0.000652] (voskros) JobQueued: {'identifier': 'voskros', 'dependencies': OrderedDict()}
+[0.000768] (voice_turtlesim_controller) JobStarted: {'identifier': 'voice_turtlesim_controller'}
+[0.074761] (voskros) JobStarted: {'identifier': 'voskros'}
+[0.108679] (-) TimerEvent: {}
+[0.227009] (-) TimerEvent: {}
+[0.333754] (-) TimerEvent: {}
+[0.436718] (-) TimerEvent: {}
+[0.542374] (-) TimerEvent: {}
+[0.648831] (-) TimerEvent: {}
+[0.749602] (-) TimerEvent: {}
+[0.853750] (-) TimerEvent: {}
+[0.955304] (-) TimerEvent: {}
+[1.060280] (-) TimerEvent: {}
+[1.160991] (-) TimerEvent: {}
+[1.261742] (-) TimerEvent: {}
+[1.363993] (-) TimerEvent: {}
+[1.464686] (-) TimerEvent: {}
+[1.566358] (-) TimerEvent: {}
+[1.675738] (-) TimerEvent: {}
+[1.776284] (-) TimerEvent: {}
+[1.876981] (-) TimerEvent: {}
+[1.982021] (-) TimerEvent: {}
+[2.083754] (-) TimerEvent: {}
+[2.198812] (-) TimerEvent: {}
+[2.268750] (voskros) JobProgress: {'identifier': 'voskros', 'progress': 'cmake'}
+[2.268877] (voskros) Command: {'cmd': ['/usr/bin/cmake', '/home/ym/ros2_voice_ws/src/voskros', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ym/ros2_voice_ws/install/voskros'], 'cwd': '/home/ym/ros2_voice_ws/build/voskros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ym', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ym/ros2_voice_ws/install/voskros/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ym', 'OLDPWD': '/home/ym/ros2_voice_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1556', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2d8149c5994538ddc8124d9c68546bf2', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ym/ros2_voice_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ym', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ym', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/ym/ros2_voice_ws/.venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ym-VirtualBox:@/tmp/.ICE-unix/1556,unix/ym-VirtualBox:/tmp/.ICE-unix/1556', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7db19c54_d403_4fcb_b431_7f81e90bd449', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RYQN82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.215', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ym/ros2_voice_ws/install/voskros:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/ym/ros2_voice_ws/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ym/ros2_voice_ws/build/voskros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2d8149c5994538ddc8124d9c68546bf2', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages:/home/ym/ros2_voice_ws/build/voice_turtlesim_controller:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ym/ros2_voice_ws/install/voskros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller:/opt/ros/jazzy'}), 'shell': False}
+[2.316801] (-) TimerEvent: {}
+[2.419509] (-) TimerEvent: {}
+[2.520170] (-) TimerEvent: {}
+[2.620716] (-) TimerEvent: {}
+[2.721239] (-) TimerEvent: {}
+[2.821971] (-) TimerEvent: {}
+[2.881332] (voskros) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.924775] (-) TimerEvent: {}
+[3.025256] (-) TimerEvent: {}
+[3.127865] (-) TimerEvent: {}
+[3.228419] (-) TimerEvent: {}
+[3.333599] (-) TimerEvent: {}
+[3.441837] (-) TimerEvent: {}
+[3.542700] (-) TimerEvent: {}
+[3.628722] (voskros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[3.644829] (-) TimerEvent: {}
+[3.716791] (voskros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.745088] (-) TimerEvent: {}
+[3.847991] (-) TimerEvent: {}
+[3.948566] (-) TimerEvent: {}
+[4.059698] (-) TimerEvent: {}
+[4.161058] (-) TimerEvent: {}
+[4.267723] (-) TimerEvent: {}
+[4.370158] (-) TimerEvent: {}
+[4.474601] (-) TimerEvent: {}
+[4.575420] (-) TimerEvent: {}
+[4.644859] (voskros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.676695] (-) TimerEvent: {}
+[4.743694] (voskros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.748756] (voskros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.755544] (voskros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.777141] (-) TimerEvent: {}
+[4.867071] (voskros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.883703] (-) TimerEvent: {}
+[4.991772] (-) TimerEvent: {}
+[5.092531] (-) TimerEvent: {}
+[5.194723] (-) TimerEvent: {}
+[5.295247] (-) TimerEvent: {}
+[5.398994] (-) TimerEvent: {}
+[5.503072] (-) TimerEvent: {}
+[5.603741] (-) TimerEvent: {}
+[5.704258] (-) TimerEvent: {}
+[5.810852] (-) TimerEvent: {}
+[5.911891] (-) TimerEvent: {}
+[6.019919] (-) TimerEvent: {}
+[6.054977] (voskros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.120528] (-) TimerEvent: {}
+[6.221943] (-) TimerEvent: {}
+[6.286476] (voskros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.292068] (voskros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.300261] (voskros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.322102] (-) TimerEvent: {}
+[6.351945] (voskros) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[6.422295] (-) TimerEvent: {}
+[6.526081] (-) TimerEvent: {}
+[6.629992] (-) TimerEvent: {}
+[6.737801] (-) TimerEvent: {}
+[6.838413] (-) TimerEvent: {}
+[6.939021] (-) TimerEvent: {}
+[7.042342] (-) TimerEvent: {}
+[7.146969] (-) TimerEvent: {}
+[7.190879] (voskros) StdoutLine: {'line': b'-- Found Python3: /home/ym/ros2_voice_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[7.247133] (-) TimerEvent: {}
+[7.351965] (-) TimerEvent: {}
+[7.452796] (-) TimerEvent: {}
+[7.553396] (-) TimerEvent: {}
+[7.596868] (voskros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.653606] (-) TimerEvent: {}
+[7.757785] (-) TimerEvent: {}
+[7.861741] (-) TimerEvent: {}
+[7.962754] (-) TimerEvent: {}
+[8.041574] (voskros) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[8.064454] (-) TimerEvent: {}
+[8.168053] (-) TimerEvent: {}
+[8.269650] (-) TimerEvent: {}
+[8.376135] (-) TimerEvent: {}
+[8.482107] (-) TimerEvent: {}
+[8.564512] (voskros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[8.587776] (-) TimerEvent: {}
+[8.690057] (-) TimerEvent: {}
+[8.768595] (voice_turtlesim_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ym/ros2_voice_ws/build/voice_turtlesim_controller/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ym/ros2_voice_ws/build/voice_turtlesim_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ym', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ym/ros2_voice_ws/install/voskros/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ym', 'OLDPWD': '/home/ym/ros2_voice_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1556', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2d8149c5994538ddc8124d9c68546bf2', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ym/ros2_voice_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ym', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ym', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/ym/ros2_voice_ws/.venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ym-VirtualBox:@/tmp/.ICE-unix/1556,unix/ym-VirtualBox:/tmp/.ICE-unix/1556', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7db19c54_d403_4fcb_b431_7f81e90bd449', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RYQN82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.215', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ym/ros2_voice_ws/install/voskros:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/ym/ros2_voice_ws/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ym/ros2_voice_ws/build/voice_turtlesim_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2d8149c5994538ddc8124d9c68546bf2', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ym/ros2_voice_ws/build/voice_turtlesim_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller/lib/python3.12/site-packages:/home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages:/home/ym/ros2_voice_ws/build/voice_turtlesim_controller:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ym/ros2_voice_ws/install/voskros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[8.793199] (-) TimerEvent: {}
+[8.884894] (voskros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[8.893408] (-) TimerEvent: {}
+[8.994905] (-) TimerEvent: {}
+[9.012769] (voskros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.096779] (-) TimerEvent: {}
+[9.122428] (voskros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.197196] (-) TimerEvent: {}
+[9.299582] (-) TimerEvent: {}
+[9.342058] (voskros) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[9.400701] (-) TimerEvent: {}
+[9.501214] (-) TimerEvent: {}
+[9.601683] (-) TimerEvent: {}
+[9.703898] (-) TimerEvent: {}
+[9.798497] (voskros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[9.804095] (-) TimerEvent: {}
+[9.822959] (voskros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.906102] (-) TimerEvent: {}
+[10.009003] (-) TimerEvent: {}
+[10.109996] (-) TimerEvent: {}
+[10.210472] (-) TimerEvent: {}
+[10.312811] (-) TimerEvent: {}
+[10.342864] (voskros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[10.407899] (voice_turtlesim_controller) StdoutLine: {'line': b'running develop\n'}
+[10.413740] (-) TimerEvent: {}
+[10.456825] (voskros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[10.513908] (-) TimerEvent: {}
+[10.586531] (voskros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.614128] (-) TimerEvent: {}
+[10.714739] (-) TimerEvent: {}
+[10.817946] (-) TimerEvent: {}
+[10.921752] (-) TimerEvent: {}
+[11.022288] (-) TimerEvent: {}
+[11.115343] (voskros) StdoutLine: {'line': b'-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[11.124769] (-) TimerEvent: {}
+[11.131380] (voskros) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[11.222863] (voskros) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[11.224893] (-) TimerEvent: {}
+[11.327128] (-) TimerEvent: {}
+[11.410828] (voice_turtlesim_controller) StdoutLine: {'line': b'running egg_info\n'}
+[11.411399] (voice_turtlesim_controller) StdoutLine: {'line': b'creating voice_turtlesim_controller.egg-info\n'}
+[11.427214] (-) TimerEvent: {}
+[11.513558] (voice_turtlesim_controller) StdoutLine: {'line': b'writing voice_turtlesim_controller.egg-info/PKG-INFO\n'}
+[11.514241] (voice_turtlesim_controller) StdoutLine: {'line': b'writing dependency_links to voice_turtlesim_controller.egg-info/dependency_links.txt\n'}
+[11.514760] (voice_turtlesim_controller) StdoutLine: {'line': b'writing entry points to voice_turtlesim_controller.egg-info/entry_points.txt\n'}
+[11.515150] (voice_turtlesim_controller) StdoutLine: {'line': b'writing requirements to voice_turtlesim_controller.egg-info/requires.txt\n'}
+[11.517399] (voice_turtlesim_controller) StdoutLine: {'line': b'writing top-level names to voice_turtlesim_controller.egg-info/top_level.txt\n'}
+[11.518034] (voice_turtlesim_controller) StdoutLine: {'line': b"writing manifest file 'voice_turtlesim_controller.egg-info/SOURCES.txt'\n"}
+[11.529427] (-) TimerEvent: {}
+[11.630090] (-) TimerEvent: {}
+[11.715462] (voice_turtlesim_controller) StdoutLine: {'line': b"reading manifest file 'voice_turtlesim_controller.egg-info/SOURCES.txt'\n"}
+[11.719740] (voice_turtlesim_controller) StdoutLine: {'line': b"writing manifest file 'voice_turtlesim_controller.egg-info/SOURCES.txt'\n"}
+[11.730378] (-) TimerEvent: {}
+[11.809545] (voice_turtlesim_controller) StdoutLine: {'line': b'running build_ext\n'}
+[11.810706] (voice_turtlesim_controller) StdoutLine: {'line': b'Creating /home/ym/ros2_voice_ws/install/voice_turtlesim_controller/lib/python3.12/site-packages/voice-turtlesim-controller.egg-link (link to .)\n'}
+[11.811821] (voice_turtlesim_controller) StdoutLine: {'line': b'Installing voice_command_node script to /home/ym/ros2_voice_ws/install/voice_turtlesim_controller/lib/voice_turtlesim_controller\n'}
+[11.812798] (voice_turtlesim_controller) StdoutLine: {'line': b'\n'}
+[11.814612] (voice_turtlesim_controller) StdoutLine: {'line': b'Installed /home/ym/ros2_voice_ws/build/voice_turtlesim_controller\n'}
+[11.815037] (voice_turtlesim_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[11.815553] (voice_turtlesim_controller) StdoutLine: {'line': b'creating /home/ym/ros2_voice_ws/install/voice_turtlesim_controller/share/ament_index\n'}
+[11.816082] (voice_turtlesim_controller) StdoutLine: {'line': b'creating /home/ym/ros2_voice_ws/install/voice_turtlesim_controller/share/ament_index/resource_index\n'}
+[11.816394] (voice_turtlesim_controller) StdoutLine: {'line': b'creating /home/ym/ros2_voice_ws/install/voice_turtlesim_controller/share/ament_index/resource_index/packages\n'}
+[11.817962] (voice_turtlesim_controller) StdoutLine: {'line': b'symbolically linking /home/ym/ros2_voice_ws/build/voice_turtlesim_controller/resource/voice_turtlesim_controller -> /home/ym/ros2_voice_ws/install/voice_turtlesim_controller/share/ament_index/resource_index/packages\n'}
+[11.818341] (voice_turtlesim_controller) StdoutLine: {'line': b'symbolically linking /home/ym/ros2_voice_ws/build/voice_turtlesim_controller/package.xml -> /home/ym/ros2_voice_ws/install/voice_turtlesim_controller/share/voice_turtlesim_controller\n'}
+[11.830685] (-) TimerEvent: {}
+[11.931128] (-) TimerEvent: {}
+[11.934914] (voice_turtlesim_controller) CommandEnded: {'returncode': 0}
+[11.975529] (voice_turtlesim_controller) JobEnded: {'identifier': 'voice_turtlesim_controller', 'rc': 0}
+[12.034875] (-) TimerEvent: {}
+[12.136981] (-) TimerEvent: {}
+[12.242951] (-) TimerEvent: {}
+[12.350013] (-) TimerEvent: {}
+[12.450502] (-) TimerEvent: {}
+[12.551332] (-) TimerEvent: {}
+[12.657377] (-) TimerEvent: {}
+[12.759969] (-) TimerEvent: {}
+[12.863539] (-) TimerEvent: {}
+[12.964020] (-) TimerEvent: {}
+[13.064563] (-) TimerEvent: {}
+[13.166108] (-) TimerEvent: {}
+[13.267047] (-) TimerEvent: {}
+[13.369021] (-) TimerEvent: {}
+[13.469563] (-) TimerEvent: {}
+[13.570344] (-) TimerEvent: {}
+[13.601301] (voskros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[13.672163] (-) TimerEvent: {}
+[13.772735] (-) TimerEvent: {}
+[13.873331] (-) TimerEvent: {}
+[13.976034] (-) TimerEvent: {}
+[14.076883] (-) TimerEvent: {}
+[14.179749] (-) TimerEvent: {}
+[14.285072] (-) TimerEvent: {}
+[14.385856] (-) TimerEvent: {}
+[14.487982] (-) TimerEvent: {}
+[14.588529] (-) TimerEvent: {}
+[14.689715] (-) TimerEvent: {}
+[14.794819] (-) TimerEvent: {}
+[14.898346] (-) TimerEvent: {}
+[15.000052] (-) TimerEvent: {}
+[15.105006] (-) TimerEvent: {}
+[15.205747] (-) TimerEvent: {}
+[15.307363] (-) TimerEvent: {}
+[15.408111] (-) TimerEvent: {}
+[15.509775] (-) TimerEvent: {}
+[15.612472] (-) TimerEvent: {}
+[15.712874] (-) TimerEvent: {}
+[15.815180] (-) TimerEvent: {}
+[15.917391] (-) TimerEvent: {}
+[16.027639] (-) TimerEvent: {}
+[16.128184] (-) TimerEvent: {}
+[16.232151] (-) TimerEvent: {}
+[16.294720] (voskros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[16.332281] (-) TimerEvent: {}
+[16.435193] (-) TimerEvent: {}
+[16.535901] (-) TimerEvent: {}
+[16.639715] (-) TimerEvent: {}
+[16.740179] (-) TimerEvent: {}
+[16.840991] (-) TimerEvent: {}
+[16.947992] (-) TimerEvent: {}
+[17.048793] (-) TimerEvent: {}
+[17.151140] (-) TimerEvent: {}
+[17.251708] (-) TimerEvent: {}
+[17.354018] (-) TimerEvent: {}
+[17.423823] (voskros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.440322] (voskros) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[17.457996] (-) TimerEvent: {}
+[17.559973] (-) TimerEvent: {}
+[17.660583] (-) TimerEvent: {}
+[17.761058] (-) TimerEvent: {}
+[17.851050] (voskros) StdoutLine: {'line': b'-- Found PythonExtra: /home/ym/ros2_voice_ws/.venv/bin/python3  \n'}
+[17.861315] (-) TimerEvent: {}
+[17.965229] (-) TimerEvent: {}
+[18.066769] (-) TimerEvent: {}
+[18.168688] (-) TimerEvent: {}
+[18.269508] (-) TimerEvent: {}
+[18.370673] (-) TimerEvent: {}
+[18.471116] (-) TimerEvent: {}
+[18.575108] (-) TimerEvent: {}
+[18.678016] (-) TimerEvent: {}
+[18.778449] (-) TimerEvent: {}
+[18.881066] (-) TimerEvent: {}
+[18.981791] (-) TimerEvent: {}
+[19.084694] (-) TimerEvent: {}
+[19.185732] (-) TimerEvent: {}
+[19.286265] (-) TimerEvent: {}
+[19.304822] (voskros) StdoutLine: {'line': b'-- Found Python3: /home/ym/ros2_voice_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[19.386464] (-) TimerEvent: {}
+[19.489054] (-) TimerEvent: {}
+[19.551430] (voskros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[19.589512] (-) TimerEvent: {}
+[19.683532] (voskros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[19.689784] (-) TimerEvent: {}
+[19.709965] (voskros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[19.731857] (voskros) StdoutLine: {'line': b'-- Configuring done (17.3s)\n'}
+[19.790057] (-) TimerEvent: {}
+[19.880695] (voskros) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[19.890422] (-) TimerEvent: {}
+[19.935052] (voskros) StdoutLine: {'line': b'-- Build files have been written to: /home/ym/ros2_voice_ws/build/voskros\n'}
+[19.973127] (voskros) CommandEnded: {'returncode': 0}
+[19.975408] (voskros) JobProgress: {'identifier': 'voskros', 'progress': 'build'}
+[19.978520] (voskros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ym/ros2_voice_ws/build/voskros', '--', '-j2', '-l2'], 'cwd': '/home/ym/ros2_voice_ws/build/voskros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ym', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ym/ros2_voice_ws/install/voskros/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ym', 'OLDPWD': '/home/ym/ros2_voice_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1556', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2d8149c5994538ddc8124d9c68546bf2', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ym/ros2_voice_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ym', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ym', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/ym/ros2_voice_ws/.venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ym-VirtualBox:@/tmp/.ICE-unix/1556,unix/ym-VirtualBox:/tmp/.ICE-unix/1556', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7db19c54_d403_4fcb_b431_7f81e90bd449', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RYQN82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.215', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ym/ros2_voice_ws/install/voskros:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/ym/ros2_voice_ws/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ym/ros2_voice_ws/build/voskros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2d8149c5994538ddc8124d9c68546bf2', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages:/home/ym/ros2_voice_ws/build/voice_turtlesim_controller:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ym/ros2_voice_ws/install/voskros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller:/opt/ros/jazzy'}), 'shell': False}
+[19.990704] (-) TimerEvent: {}
+[20.092950] (-) TimerEvent: {}
+[20.163678] (voskros) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[20.193258] (-) TimerEvent: {}
+[20.295631] (-) TimerEvent: {}
+[20.398065] (-) TimerEvent: {}
+[20.500710] (-) TimerEvent: {}
+[20.605575] (-) TimerEvent: {}
+[20.707716] (-) TimerEvent: {}
+[20.809962] (-) TimerEvent: {}
+[20.910560] (-) TimerEvent: {}
+[20.999478] (voskros) StdoutLine: {'line': b'[  2%] Built target voskros__rosidl_generator_type_description\n'}
+[21.011009] (-) TimerEvent: {}
+[21.094438] (voskros) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_voskros\n'}
+[21.111139] (-) TimerEvent: {}
+[21.193702] (voskros) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[21.212667] (-) TimerEvent: {}
+[21.314369] (-) TimerEvent: {}
+[21.416526] (-) TimerEvent: {}
+[21.517261] (-) TimerEvent: {}
+[21.619500] (-) TimerEvent: {}
+[21.720735] (-) TimerEvent: {}
+[21.821229] (-) TimerEvent: {}
+[21.925262] (-) TimerEvent: {}
+[22.031003] (-) TimerEvent: {}
+[22.131740] (-) TimerEvent: {}
+[22.236746] (-) TimerEvent: {}
+[22.340028] (-) TimerEvent: {}
+[22.440671] (-) TimerEvent: {}
+[22.541895] (-) TimerEvent: {}
+[22.643748] (-) TimerEvent: {}
+[22.744407] (-) TimerEvent: {}
+[22.792001] (voskros) StdoutLine: {'line': b'[  5%] Built target voskros__cpp\n'}
+[22.824206] (voskros) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[22.845498] (-) TimerEvent: {}
+[22.947855] (-) TimerEvent: {}
+[23.048478] (-) TimerEvent: {}
+[23.149153] (-) TimerEvent: {}
+[23.255704] (-) TimerEvent: {}
+[23.363201] (-) TimerEvent: {}
+[23.464465] (-) TimerEvent: {}
+[23.571208] (-) TimerEvent: {}
+[23.678165] (-) TimerEvent: {}
+[23.780704] (-) TimerEvent: {}
+[23.881933] (-) TimerEvent: {}
+[23.986731] (-) TimerEvent: {}
+[24.088805] (-) TimerEvent: {}
+[24.193036] (-) TimerEvent: {}
+[24.296248] (-) TimerEvent: {}
+[24.398985] (-) TimerEvent: {}
+[24.501727] (-) TimerEvent: {}
+[24.590945] (voskros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/voskros__rosidl_generator_c.dir/rosidl_generator_c/voskros/srv/detail/set_grammar__description.c.o\x1b[0m\n'}
+[24.608368] (-) TimerEvent: {}
+[24.708992] (-) TimerEvent: {}
+[24.769121] (voskros) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/voskros__rosidl_generator_c.dir/rosidl_generator_c/voskros/srv/detail/set_grammar__functions.c.o\x1b[0m\n'}
+[24.809234] (-) TimerEvent: {}
+[24.909816] (-) TimerEvent: {}
+[25.010460] (-) TimerEvent: {}
+[25.056327] (voskros) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/voskros__rosidl_generator_c.dir/rosidl_generator_c/voskros/srv/detail/set_grammar__type_support.c.o\x1b[0m\n'}
+[25.112040] (-) TimerEvent: {}
+[25.214451] (-) TimerEvent: {}
+[25.259858] (voskros) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libvoskros__rosidl_generator_c.so\x1b[0m\n'}
+[25.315483] (-) TimerEvent: {}
+[25.415713] (voskros) StdoutLine: {'line': b'[ 20%] Built target voskros__rosidl_generator_c\n'}
+[25.416210] (-) TimerEvent: {}
+[25.517266] (-) TimerEvent: {}
+[25.619379] (-) TimerEvent: {}
+[25.720952] (-) TimerEvent: {}
+[25.824809] (-) TimerEvent: {}
+[25.927999] (-) TimerEvent: {}
+[26.034665] (-) TimerEvent: {}
+[26.140832] (-) TimerEvent: {}
+[26.187751] (voskros) StdoutLine: {'line': b'running egg_info\n'}
+[26.240234] (voskros) StdoutLine: {'line': b'creating voskros.egg-info\n'}
+[26.240737] (voskros) StdoutLine: {'line': b'writing voskros.egg-info/PKG-INFO\n'}
+[26.241038] (-) TimerEvent: {}
+[26.241908] (voskros) StdoutLine: {'line': b'writing dependency_links to voskros.egg-info/dependency_links.txt\n'}
+[26.242484] (voskros) StdoutLine: {'line': b'writing top-level names to voskros.egg-info/top_level.txt\n'}
+[26.242980] (voskros) StdoutLine: {'line': b"writing manifest file 'voskros.egg-info/SOURCES.txt'\n"}
+[26.341377] (-) TimerEvent: {}
+[26.427949] (voskros) StdoutLine: {'line': b"reading manifest file 'voskros.egg-info/SOURCES.txt'\n"}
+[26.430796] (voskros) StdoutLine: {'line': b"writing manifest file 'voskros.egg-info/SOURCES.txt'\n"}
+[26.441697] (-) TimerEvent: {}
+[26.546953] (-) TimerEvent: {}
+[26.548848] (voskros) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_build_voskros_egg\n'}
+[26.582171] (voskros) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[26.648366] (-) TimerEvent: {}
+[26.754669] (-) TimerEvent: {}
+[26.856016] (-) TimerEvent: {}
+[26.963167] (-) TimerEvent: {}
+[27.064729] (-) TimerEvent: {}
+[27.169803] (-) TimerEvent: {}
+[27.271918] (-) TimerEvent: {}
+[27.373292] (-) TimerEvent: {}
+[27.479672] (-) TimerEvent: {}
+[27.585381] (-) TimerEvent: {}
+[27.643606] (voskros) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/voskros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/voskros/srv/set_grammar__type_support.cpp.o\x1b[0m\n'}
+[27.686746] (-) TimerEvent: {}
+[27.787348] (-) TimerEvent: {}
+[27.889030] (-) TimerEvent: {}
+[27.993811] (-) TimerEvent: {}
+[28.094683] (-) TimerEvent: {}
+[28.200633] (-) TimerEvent: {}
+[28.304149] (-) TimerEvent: {}
+[28.409534] (-) TimerEvent: {}
+[28.512490] (-) TimerEvent: {}
+[28.616050] (-) TimerEvent: {}
+[28.721123] (-) TimerEvent: {}
+[28.829327] (-) TimerEvent: {}
+[28.930942] (-) TimerEvent: {}
+[29.045704] (-) TimerEvent: {}
+[29.113743] (voskros) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libvoskros__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[29.146753] (-) TimerEvent: {}
+[29.247135] (-) TimerEvent: {}
+[29.347939] (-) TimerEvent: {}
+[29.369833] (voskros) StdoutLine: {'line': b'[ 29%] Built target voskros__rosidl_typesupport_cpp\n'}
+[29.401772] (voskros) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[29.448243] (-) TimerEvent: {}
+[29.552174] (-) TimerEvent: {}
+[29.657386] (-) TimerEvent: {}
+[29.761194] (-) TimerEvent: {}
+[29.865020] (-) TimerEvent: {}
+[29.970838] (-) TimerEvent: {}
+[30.073602] (-) TimerEvent: {}
+[30.174848] (-) TimerEvent: {}
+[30.275351] (-) TimerEvent: {}
+[30.376260] (-) TimerEvent: {}
+[30.483743] (-) TimerEvent: {}
+[30.584707] (-) TimerEvent: {}
+[30.685681] (-) TimerEvent: {}
+[30.789390] (-) TimerEvent: {}
+[30.893246] (-) TimerEvent: {}
+[30.994156] (-) TimerEvent: {}
+[31.097414] (-) TimerEvent: {}
+[31.133731] (voskros) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/voskros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/voskros/srv/detail/set_grammar__type_support_c.cpp.o\x1b[0m\n'}
+[31.197713] (-) TimerEvent: {}
+[31.303690] (-) TimerEvent: {}
+[31.406149] (-) TimerEvent: {}
+[31.507377] (-) TimerEvent: {}
+[31.608844] (-) TimerEvent: {}
+[31.715218] (-) TimerEvent: {}
+[31.818829] (-) TimerEvent: {}
+[31.922993] (-) TimerEvent: {}
+[32.023997] (-) TimerEvent: {}
+[32.130707] (-) TimerEvent: {}
+[32.232361] (-) TimerEvent: {}
+[32.334911] (-) TimerEvent: {}
+[32.437680] (-) TimerEvent: {}
+[32.539979] (-) TimerEvent: {}
+[32.643682] (-) TimerEvent: {}
+[32.749160] (-) TimerEvent: {}
+[32.782751] (voskros) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libvoskros__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[32.853434] (-) TimerEvent: {}
+[32.955093] (-) TimerEvent: {}
+[33.051232] (voskros) StdoutLine: {'line': b'[ 38%] Built target voskros__rosidl_typesupport_fastrtps_c\n'}
+[33.056090] (-) TimerEvent: {}
+[33.095225] (voskros) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[33.156317] (-) TimerEvent: {}
+[33.259889] (-) TimerEvent: {}
+[33.360456] (-) TimerEvent: {}
+[33.461062] (-) TimerEvent: {}
+[33.561597] (-) TimerEvent: {}
+[33.662197] (-) TimerEvent: {}
+[33.765628] (-) TimerEvent: {}
+[33.869751] (-) TimerEvent: {}
+[33.972210] (-) TimerEvent: {}
+[34.073913] (-) TimerEvent: {}
+[34.177226] (-) TimerEvent: {}
+[34.280888] (-) TimerEvent: {}
+[34.387716] (-) TimerEvent: {}
+[34.493769] (-) TimerEvent: {}
+[34.600537] (-) TimerEvent: {}
+[34.702000] (-) TimerEvent: {}
+[34.737032] (voskros) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/voskros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/voskros/srv/detail/dds_fastrtps/set_grammar__type_support.cpp.o\x1b[0m\n'}
+[34.802849] (-) TimerEvent: {}
+[34.904973] (-) TimerEvent: {}
+[35.005784] (-) TimerEvent: {}
+[35.112716] (-) TimerEvent: {}
+[35.219012] (-) TimerEvent: {}
+[35.321874] (-) TimerEvent: {}
+[35.425684] (-) TimerEvent: {}
+[35.528702] (-) TimerEvent: {}
+[35.633938] (-) TimerEvent: {}
+[35.736736] (-) TimerEvent: {}
+[35.841391] (-) TimerEvent: {}
+[35.944685] (-) TimerEvent: {}
+[36.051677] (-) TimerEvent: {}
+[36.152086] (-) TimerEvent: {}
+[36.256365] (-) TimerEvent: {}
+[36.360154] (-) TimerEvent: {}
+[36.466720] (-) TimerEvent: {}
+[36.573143] (-) TimerEvent: {}
+[36.677424] (-) TimerEvent: {}
+[36.786809] (-) TimerEvent: {}
+[36.890006] (-) TimerEvent: {}
+[36.947986] (voskros) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libvoskros__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[36.990842] (-) TimerEvent: {}
+[37.092766] (-) TimerEvent: {}
+[37.195324] (-) TimerEvent: {}
+[37.216910] (voskros) StdoutLine: {'line': b'[ 47%] Built target voskros__rosidl_typesupport_fastrtps_cpp\n'}
+[37.257738] (voskros) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[37.296807] (-) TimerEvent: {}
+[37.397430] (-) TimerEvent: {}
+[37.501789] (-) TimerEvent: {}
+[37.603927] (-) TimerEvent: {}
+[37.707165] (-) TimerEvent: {}
+[37.809979] (-) TimerEvent: {}
+[37.916826] (-) TimerEvent: {}
+[38.019231] (-) TimerEvent: {}
+[38.120944] (-) TimerEvent: {}
+[38.226368] (-) TimerEvent: {}
+[38.330285] (-) TimerEvent: {}
+[38.436692] (-) TimerEvent: {}
+[38.539046] (-) TimerEvent: {}
+[38.638936] (voskros) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/voskros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/voskros/srv/detail/set_grammar__type_support.c.o\x1b[0m\n'}
+[38.639331] (-) TimerEvent: {}
+[38.740090] (-) TimerEvent: {}
+[38.843312] (-) TimerEvent: {}
+[38.889147] (voskros) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libvoskros__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[38.943719] (-) TimerEvent: {}
+[39.021793] (voskros) StdoutLine: {'line': b'[ 55%] Built target voskros__rosidl_typesupport_introspection_c\n'}
+[39.044551] (-) TimerEvent: {}
+[39.055734] (voskros) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[39.147148] (-) TimerEvent: {}
+[39.250178] (-) TimerEvent: {}
+[39.356054] (-) TimerEvent: {}
+[39.458652] (-) TimerEvent: {}
+[39.562133] (-) TimerEvent: {}
+[39.664971] (-) TimerEvent: {}
+[39.768094] (-) TimerEvent: {}
+[39.872071] (-) TimerEvent: {}
+[39.974931] (-) TimerEvent: {}
+[40.077689] (-) TimerEvent: {}
+[40.184565] (-) TimerEvent: {}
+[40.242678] (voskros) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/voskros__rosidl_typesupport_c.dir/rosidl_typesupport_c/voskros/srv/set_grammar__type_support.cpp.o\x1b[0m\n'}
+[40.284796] (-) TimerEvent: {}
+[40.388077] (-) TimerEvent: {}
+[40.413228] (voskros) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libvoskros__rosidl_typesupport_c.so\x1b[0m\n'}
+[40.488383] (-) TimerEvent: {}
+[40.557261] (voskros) StdoutLine: {'line': b'[ 64%] Built target voskros__rosidl_typesupport_c\n'}
+[40.588602] (-) TimerEvent: {}
+[40.598777] (voskros) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[40.690251] (-) TimerEvent: {}
+[40.790825] (-) TimerEvent: {}
+[40.893405] (-) TimerEvent: {}
+[40.998819] (-) TimerEvent: {}
+[41.099828] (-) TimerEvent: {}
+[41.202669] (-) TimerEvent: {}
+[41.303746] (-) TimerEvent: {}
+[41.405937] (-) TimerEvent: {}
+[41.506796] (-) TimerEvent: {}
+[41.608163] (-) TimerEvent: {}
+[41.709264] (-) TimerEvent: {}
+[41.809916] (-) TimerEvent: {}
+[41.910513] (-) TimerEvent: {}
+[41.928540] (voskros) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/voskros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/voskros/srv/detail/set_grammar__type_support.cpp.o\x1b[0m\n'}
+[42.015556] (-) TimerEvent: {}
+[42.116786] (-) TimerEvent: {}
+[42.217870] (-) TimerEvent: {}
+[42.318387] (-) TimerEvent: {}
+[42.418981] (-) TimerEvent: {}
+[42.519579] (-) TimerEvent: {}
+[42.622256] (-) TimerEvent: {}
+[42.722709] (-) TimerEvent: {}
+[42.823735] (-) TimerEvent: {}
+[42.925872] (-) TimerEvent: {}
+[43.026466] (-) TimerEvent: {}
+[43.129547] (-) TimerEvent: {}
+[43.235097] (-) TimerEvent: {}
+[43.343203] (-) TimerEvent: {}
+[43.446241] (-) TimerEvent: {}
+[43.552157] (-) TimerEvent: {}
+[43.655354] (-) TimerEvent: {}
+[43.684638] (voskros) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libvoskros__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[43.757415] (-) TimerEvent: {}
+[43.858814] (-) TimerEvent: {}
+[43.949451] (voskros) StdoutLine: {'line': b'[ 73%] Built target voskros__rosidl_typesupport_introspection_cpp\n'}
+[43.959777] (-) TimerEvent: {}
+[44.028730] (voskros) StdoutLine: {'line': b'[ 73%] Built target voskros\n'}
+[44.063987] (-) TimerEvent: {}
+[44.103882] (voskros) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[44.164156] (-) TimerEvent: {}
+[44.264920] (-) TimerEvent: {}
+[44.369765] (-) TimerEvent: {}
+[44.473935] (-) TimerEvent: {}
+[44.578037] (-) TimerEvent: {}
+[44.678670] (-) TimerEvent: {}
+[44.785424] (-) TimerEvent: {}
+[44.889855] (-) TimerEvent: {}
+[44.996020] (-) TimerEvent: {}
+[45.099010] (-) TimerEvent: {}
+[45.202089] (-) TimerEvent: {}
+[45.307749] (-) TimerEvent: {}
+[45.410168] (-) TimerEvent: {}
+[45.513654] (-) TimerEvent: {}
+[45.615989] (-) TimerEvent: {}
+[45.718888] (-) TimerEvent: {}
+[45.820987] (-) TimerEvent: {}
+[45.923992] (-) TimerEvent: {}
+[46.027748] (-) TimerEvent: {}
+[46.128360] (-) TimerEvent: {}
+[46.232070] (-) TimerEvent: {}
+[46.332585] (-) TimerEvent: {}
+[46.354291] (voskros) StdoutLine: {'line': b'[ 76%] Built target voskros__py\n'}
+[46.423204] (voskros) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/voskros__rosidl_generator_py.dir/rosidl_generator_py/voskros/srv/_set_grammar_s.c.o\x1b[0m\n'}
+[46.433827] (-) TimerEvent: {}
+[46.534363] (-) TimerEvent: {}
+[46.634989] (-) TimerEvent: {}
+[46.735536] (-) TimerEvent: {}
+[46.837366] (-) TimerEvent: {}
+[46.937898] (-) TimerEvent: {}
+[47.014909] (voskros) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libvoskros__rosidl_generator_py.so\x1b[0m\n'}
+[47.042730] (-) TimerEvent: {}
+[47.144051] (-) TimerEvent: {}
+[47.165928] (voskros) StdoutLine: {'line': b'[ 82%] Built target voskros__rosidl_generator_py\n'}
+[47.229834] (voskros) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/voskros_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/voskros/_voskros_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[47.244250] (-) TimerEvent: {}
+[47.346210] (-) TimerEvent: {}
+[47.446800] (-) TimerEvent: {}
+[47.547340] (-) TimerEvent: {}
+[47.642281] (voskros) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/voskros/voskros_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[47.648198] (-) TimerEvent: {}
+[47.748757] (-) TimerEvent: {}
+[47.789073] (voskros) StdoutLine: {'line': b'[ 88%] Built target voskros_s__rosidl_typesupport_fastrtps_c\n'}
+[47.848933] (-) TimerEvent: {}
+[47.862813] (voskros) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/voskros_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/voskros/_voskros_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[47.951412] (-) TimerEvent: {}
+[48.052725] (-) TimerEvent: {}
+[48.153362] (-) TimerEvent: {}
+[48.253328] (voskros) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/voskros/voskros_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[48.253869] (-) TimerEvent: {}
+[48.355756] (voskros) StdoutLine: {'line': b'[ 94%] Built target voskros_s__rosidl_typesupport_introspection_c\n'}
+[48.356165] (-) TimerEvent: {}
+[48.424122] (voskros) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/voskros_s__rosidl_typesupport_c.dir/rosidl_generator_py/voskros/_voskros_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[48.456497] (-) TimerEvent: {}
+[48.558170] (-) TimerEvent: {}
+[48.659957] (-) TimerEvent: {}
+[48.764893] (-) TimerEvent: {}
+[48.802925] (voskros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/voskros/voskros_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[48.867413] (-) TimerEvent: {}
+[48.909844] (voskros) StdoutLine: {'line': b'[100%] Built target voskros_s__rosidl_typesupport_c\n'}
+[48.940181] (voskros) CommandEnded: {'returncode': 0}
+[48.942756] (voskros) JobProgress: {'identifier': 'voskros', 'progress': 'install'}
+[48.967716] (-) TimerEvent: {}
+[48.975185] (voskros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ym/ros2_voice_ws/build/voskros'], 'cwd': '/home/ym/ros2_voice_ws/build/voskros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ym', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ym/ros2_voice_ws/install/voskros/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ym', 'OLDPWD': '/home/ym/ros2_voice_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(.venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1556', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2d8149c5994538ddc8124d9c68546bf2', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ym/ros2_voice_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ym', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ym', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/ym/ros2_voice_ws/.venv/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ym-VirtualBox:@/tmp/.ICE-unix/1556,unix/ym-VirtualBox:/tmp/.ICE-unix/1556', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7db19c54_d403_4fcb_b431_7f81e90bd449', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(.venv)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RYQN82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.215', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ym/ros2_voice_ws/install/voskros:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/ym/ros2_voice_ws/.venv', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ym/ros2_voice_ws/build/voskros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2d8149c5994538ddc8124d9c68546bf2', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages:/home/ym/ros2_voice_ws/build/voice_turtlesim_controller:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ym/ros2_voice_ws/install/voskros:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ym/ros2_voice_ws/install/voice_turtlesim_controller:/opt/ros/jazzy'}), 'shell': False}
+[49.009314] (voskros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.011762] (voskros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[49.012881] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/ament_index/resource_index/rosidl_interfaces/voskros\n'}
+[49.045975] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/srv/SetGrammar.json\n'}
+[49.069253] (-) TimerEvent: {}
+[49.081229] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/msg/rosidl_generator_c__visibility_control.h\n'}
+[49.113754] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__functions.h\n'}
+[49.139989] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__struct.h\n'}
+[49.167131] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__type_support.h\n'}
+[49.170756] (-) TimerEvent: {}
+[49.204231] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/set_grammar.h\n'}
+[49.241950] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/environment/library_path.sh\n'}
+[49.270956] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/environment/library_path.dsv\n'}
+[49.271319] (-) TimerEvent: {}
+[49.306575] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[49.341086] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__rosidl_typesupport_fastrtps_c.h\n'}
+[49.373526] (-) TimerEvent: {}
+[49.381993] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[49.454827] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__builder.hpp\n'}
+[49.473705] (-) TimerEvent: {}
+[49.518384] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__struct.hpp\n'}
+[49.574786] (-) TimerEvent: {}
+[49.588249] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__traits.hpp\n'}
+[49.643241] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__type_support.hpp\n'}
+[49.677802] (-) TimerEvent: {}
+[49.701465] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/set_grammar.hpp\n'}
+[49.741603] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[49.778095] (-) TimerEvent: {}
+[49.790073] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.831803] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[49.865447] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__rosidl_typesupport_introspection_c.h\n'}
+[49.878681] (-) TimerEvent: {}
+[49.906919] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/include/voskros/voskros/srv/detail/set_grammar__rosidl_typesupport_introspection_cpp.hpp\n'}
+[49.951028] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/environment/pythonpath.sh\n'}
+[49.986324] (-) TimerEvent: {}
+[50.039873] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/environment/pythonpath.dsv\n'}
+[50.071359] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros-1.1.0-py3.12.egg-info/PKG-INFO\n'}
+[50.088201] (-) TimerEvent: {}
+[50.106140] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros-1.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[50.144857] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros-1.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[50.182750] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros-1.1.0-py3.12.egg-info/top_level.txt\n'}
+[50.188425] (-) TimerEvent: {}
+[50.238354] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/__init__.py\n'}
+[50.265000] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/_voskros_s.ep.rosidl_typesupport_c.c\n'}
+[50.290035] (-) TimerEvent: {}
+[50.293795] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/_voskros_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[50.332641] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/_voskros_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[50.392097] (-) TimerEvent: {}
+[50.413201] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/srv/__init__.py\n'}
+[50.494866] (-) TimerEvent: {}
+[50.547914] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/srv/_set_grammar.py\n'}
+[50.599845] (-) TimerEvent: {}
+[50.621226] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/srv/_set_grammar_s.c\n'}
+[50.700858] (-) TimerEvent: {}
+[50.731054] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/voskros_s__rosidl_typesupport_c.so\n'}
+[50.801750] (-) TimerEvent: {}
+[50.830767] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/voskros_s__rosidl_typesupport_fastrtps_c.so\n'}
+[50.911347] (-) TimerEvent: {}
+[50.915658] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/voskros_s__rosidl_typesupport_introspection_c.so\n'}
+[50.978048] (voskros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/voskros_s__rosidl_typesupport_fastrtps_c.so\n'}
+[50.979248] (voskros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/voskros_s__rosidl_typesupport_introspection_c.so\n'}
+[50.980657] (voskros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/voskros_s__rosidl_typesupport_c.so\n'}
+[50.982127] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/srv/SetGrammar.idl\n'}
+[51.012325] (-) TimerEvent: {}
+[51.022177] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/srv/SetGrammar.srv\n'}
+[51.050302] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/voskros/vosk\n'}
+[51.079811] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/voskros/prompter\n'}
+[51.105557] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/lib/voskros/set_grammar.sh\n'}
+[51.112829] (-) TimerEvent: {}
+[51.133029] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros//config/prompter.yaml\n'}
+[51.158397] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros//launch/voskros.launch.yaml\n'}
+[51.186034] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/ament_index/resource_index/package_run_dependencies/voskros\n'}
+[51.211066] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/ament_index/resource_index/parent_prefix_path/voskros\n'}
+[51.213289] (-) TimerEvent: {}
+[51.240755] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/environment/ament_prefix_path.sh\n'}
+[51.265082] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/environment/ament_prefix_path.dsv\n'}
+[51.291375] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/environment/path.sh\n'}
+[51.315032] (-) TimerEvent: {}
+[51.317323] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/environment/path.dsv\n'}
+[51.345224] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/local_setup.bash\n'}
+[51.373865] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/local_setup.sh\n'}
+[51.401669] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/local_setup.zsh\n'}
+[51.415885] (-) TimerEvent: {}
+[51.431143] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/local_setup.dsv\n'}
+[51.459815] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/package.dsv\n'}
+[51.491949] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/ament_index/resource_index/packages/voskros\n'}
+[51.517869] (-) TimerEvent: {}
+[51.525281] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/rosidl_cmake-extras.cmake\n'}
+[51.562742] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[51.601921] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[51.623134] (-) TimerEvent: {}
+[51.640689] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[51.694921] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[51.723388] (-) TimerEvent: {}
+[51.736790] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[51.766920] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[51.796299] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/voskrosConfig.cmake\n'}
+[51.823557] (-) TimerEvent: {}
+[51.825396] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/voskrosConfig-version.cmake\n'}
+[51.855201] (voskros) StdoutLine: {'line': b'-- Symlinking: /home/ym/ros2_voice_ws/install/voskros/share/voskros/package.xml\n'}
+[51.885834] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_generator_c.so\n'}
+[51.887727] (voskros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_generator_c.so" to ""\n'}
+[51.888857] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_fastrtps_c.so\n'}
+[51.891738] (voskros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[51.892218] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_fastrtps_cpp.so\n'}
+[51.894221] (voskros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[51.896268] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_introspection_c.so\n'}
+[51.897230] (voskros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_introspection_c.so" to ""\n'}
+[51.898439] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_c.so\n'}
+[51.900354] (voskros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_c.so" to ""\n'}
+[51.900885] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_introspection_cpp.so\n'}
+[51.902806] (voskros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[51.903831] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_cpp.so\n'}
+[51.906403] (voskros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_typesupport_cpp.so" to ""\n'}
+[51.923738] (-) TimerEvent: {}
+[52.026898] (-) TimerEvent: {}
+[52.068127] (voskros) StdoutLine: {'line': b"Listing '/home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros'...\n"}
+[52.068586] (voskros) StdoutLine: {'line': b"Compiling '/home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/__init__.py'...\n"}
+[52.069256] (voskros) StdoutLine: {'line': b"Listing '/home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/srv'...\n"}
+[52.069527] (voskros) StdoutLine: {'line': b"Compiling '/home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/srv/__init__.py'...\n"}
+[52.070943] (voskros) StdoutLine: {'line': b"Compiling '/home/ym/ros2_voice_ws/install/voskros/lib/python3.12/site-packages/voskros/srv/_set_grammar.py'...\n"}
+[52.093733] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_generator_py.so\n'}
+[52.094135] (voskros) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ym/ros2_voice_ws/install/voskros/lib/libvoskros__rosidl_generator_py.so" to ""\n'}
+[52.096603] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/export_voskros__rosidl_generator_cExport.cmake\n'}
+[52.097098] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/export_voskros__rosidl_generator_cExport-noconfig.cmake\n'}
+[52.097486] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/export_voskros__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[52.097866] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/export_voskros__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[52.098193] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/export_voskros__rosidl_generator_cppExport.cmake\n'}
+[52.099595] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/export_voskros__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[52.100076] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/export_voskros__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[52.100364] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/voskros__rosidl_typesupport_introspection_cExport.cmake\n'}
+[52.100646] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/voskros__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[52.101559] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/voskros__rosidl_typesupport_cExport.cmake\n'}
+[52.101991] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/voskros__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[52.102299] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/voskros__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[52.102792] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/voskros__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[52.103245] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/voskros__rosidl_typesupport_cppExport.cmake\n'}
+[52.103815] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/voskros__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[52.104196] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/export_voskros__rosidl_generator_pyExport.cmake\n'}
+[52.104806] (voskros) StdoutLine: {'line': b'-- Installing: /home/ym/ros2_voice_ws/install/voskros/share/voskros/cmake/export_voskros__rosidl_generator_pyExport-noconfig.cmake\n'}
+[52.112784] (voskros) CommandEnded: {'returncode': 0}
+[52.128456] (-) TimerEvent: {}
+[52.163459] (voskros) JobEnded: {'identifier': 'voskros', 'rc': 0}
+[52.165594] (-) EventReactorShutdown: {}

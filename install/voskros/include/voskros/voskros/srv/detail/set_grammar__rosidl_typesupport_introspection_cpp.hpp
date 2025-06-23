@@ -1,0 +1,1 @@
+/home/ym/ros2_voice_ws/build/voskros/rosidl_typesupport_introspection_cpp/voskros/srv/detail/set_grammar__rosidl_typesupport_introspection_cpp.hpp

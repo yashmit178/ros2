@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/voice_turtlesim_controller
+voice_turtlesim_controller/__init__.py
+voice_turtlesim_controller/voice_command_node.py
+voice_turtlesim_controller.egg-info/PKG-INFO
+voice_turtlesim_controller.egg-info/SOURCES.txt
+voice_turtlesim_controller.egg-info/dependency_links.txt
+voice_turtlesim_controller.egg-info/entry_points.txt
+voice_turtlesim_controller.egg-info/requires.txt
+voice_turtlesim_controller.egg-info/top_level.txt
+voice_turtlesim_controller.egg-info/zip-safe

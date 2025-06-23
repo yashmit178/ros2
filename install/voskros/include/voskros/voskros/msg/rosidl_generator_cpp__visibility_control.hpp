@@ -1,0 +1,1 @@
+/home/ym/ros2_voice_ws/build/voskros/rosidl_generator_cpp/voskros/msg/rosidl_generator_cpp__visibility_control.hpp

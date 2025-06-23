@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "voskros__py",
+		"source" : "/home/ym/ros2_voice_ws/build/voskros/voskros__py"
+	}
+}

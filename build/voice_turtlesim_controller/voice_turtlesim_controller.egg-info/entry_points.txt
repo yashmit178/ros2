@@ -1,0 +1,2 @@
+[console_scripts]
+voice_command_node = voice_turtlesim_controller.voice_command_node:main

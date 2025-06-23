@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e505b1f6c5d0ab10ed14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "voskros__py",
+					"jsonFile" : "directory-voskros__py-e8b48a5e5c7ee4ac3e7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ym/ros2_voice_ws/build/voskros/voskros__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "voskros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_voskros_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_voskros_egg-6f256ba6ee9a4db613bb.json",
+					"name" : "ament_cmake_python_build_voskros_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_voskros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_voskros-74f486a899d0e8a4354a.json",
+					"name" : "ament_cmake_python_symlink_voskros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-476b100991a46dca62f8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros-1affc004feac316eaa40.json",
+					"name" : "voskros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros__cpp-c5d204cd8caf5ee24a36.json",
+					"name" : "voskros__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "voskros__py::@b0d3d1d8fd1939d4ea23",
+					"jsonFile" : "target-voskros__py-c4f11edfcb23520678ac.json",
+					"name" : "voskros__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros__rosidl_generator_c-d3bdc629b30f4addf30f.json",
+					"name" : "voskros__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros__rosidl_generator_py-f776766f21088f954378.json",
+					"name" : "voskros__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros__rosidl_generator_type_description-dc80b843cf544d33d59a.json",
+					"name" : "voskros__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros__rosidl_typesupport_c-d06c1a2155225c4133df.json",
+					"name" : "voskros__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros__rosidl_typesupport_cpp-00370510d363f4c83086.json",
+					"name" : "voskros__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros__rosidl_typesupport_fastrtps_c-17a6d82bd6850a452032.json",
+					"name" : "voskros__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros__rosidl_typesupport_fastrtps_cpp-82207a61cfc7d15483ce.json",
+					"name" : "voskros__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros__rosidl_typesupport_introspection_c-a55eec77768710447af4.json",
+					"name" : "voskros__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros__rosidl_typesupport_introspection_cpp-d3e2afe46f320c8b1204.json",
+					"name" : "voskros__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros_s__rosidl_typesupport_c-685de5f50c1eb177b1e6.json",
+					"name" : "voskros_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros_s__rosidl_typesupport_fastrtps_c-5406da9639d4f9c5bc2f.json",
+					"name" : "voskros_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros_s__rosidl_typesupport_introspection_c-fed84df49ca279d4b239.json",
+					"name" : "voskros_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voskros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voskros_uninstall-b72ee579ad51496dd426.json",
+					"name" : "voskros_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ym/ros2_voice_ws/build/voskros",
+		"source" : "/home/ym/ros2_voice_ws/src/voskros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

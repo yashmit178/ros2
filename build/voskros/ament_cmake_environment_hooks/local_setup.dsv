@@ -1,0 +1,4 @@
+source;share/voskros/environment/ament_prefix_path.sh
+source;share/voskros/environment/library_path.sh
+source;share/voskros/environment/path.sh
+source;share/voskros/environment/pythonpath.sh

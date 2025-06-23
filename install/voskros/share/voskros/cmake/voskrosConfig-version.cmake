@@ -1,0 +1,1 @@
+/home/ym/ros2_voice_ws/build/voskros/ament_cmake_core/voskrosConfig-version.cmake

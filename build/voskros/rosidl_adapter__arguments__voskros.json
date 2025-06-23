@@ -1,0 +1,6 @@
+{
+  "package_name": "voskros",
+  "non_idl_tuples": [
+    "/home/ym/ros2_voice_ws/src/voskros:srv/SetGrammar.srv"
+  ]
+}

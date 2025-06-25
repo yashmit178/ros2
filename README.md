@@ -11,7 +11,7 @@
   </table>
 </div>
 
-<div align="center">![Video](/visuals/video.mp4)</div>
+![Video](/visuals/video.mp4)
 
 ## Overview
 

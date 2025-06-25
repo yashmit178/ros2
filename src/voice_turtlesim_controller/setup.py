@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'voice_command_node = voice_turtlesim_controller.voice_command_node:main',
+            'turtle_pose_to_rviz = voice_turtlesim_controller.turtle_pose_to_rviz:main',
         ],
     },
 )

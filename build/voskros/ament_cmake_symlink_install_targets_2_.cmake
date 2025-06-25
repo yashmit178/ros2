@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ym/ros2_voice_ws/build/voskros/rosidl_generator_py/voskros/voskros_s__rosidl_typesupport_c.so" "TARGETS" "voskros_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/voskros")

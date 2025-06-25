@@ -1,1 +1,0 @@
-/home/ym/ros2_voice_ws/build/voskros/rosidl_typesupport_fastrtps_cpp/voskros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

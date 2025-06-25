@@ -1,1 +1,0 @@
-/home/ym/ros2_voice_ws/build/voskros/rosidl_typesupport_introspection_c/voskros/msg/rosidl_typesupport_introspection_c__visibility_control.h

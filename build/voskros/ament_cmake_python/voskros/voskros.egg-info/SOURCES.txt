@@ -1,6 +1,0 @@
-setup.py
-voskros/__init__.py
-voskros.egg-info/PKG-INFO
-voskros.egg-info/SOURCES.txt
-voskros.egg-info/dependency_links.txt
-voskros.egg-info/top_level.txt

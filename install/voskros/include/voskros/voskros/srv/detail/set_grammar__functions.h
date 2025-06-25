@@ -1,1 +1,0 @@
-/home/ym/ros2_voice_ws/build/voskros/rosidl_generator_c/voskros/srv/detail/set_grammar__functions.h
